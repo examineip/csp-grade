@@ -1,0 +1,20 @@
+{
+  "name": "csp-grade",
+  "version": "1.0.0",
+  "description": "Grade a Content-Security-Policy on whether it actually stops injected script, judging only the directive browsers consult - not a substring search over the header.",
+  "main": "csp-grade.js",
+  "private": true,
+  "scripts": {
+    "test": "node tests/run.js"
+  },
+  "keywords": ["csp", "content-security-policy", "xss", "security-headers", "nonce", "unsafe-inline"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/examineip/csp-grade.git"
+  },
+  "homepage": "https://tools.examineip.com/security-headers/",
+  "engines": {
+    "node": ">=14"
+  }
+}
